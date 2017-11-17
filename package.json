@@ -1,6 +1,6 @@
 {
   "name": "DevTemp",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Retrieves battery temperature on Android",
   "main": "index.js",
   "scripts": {
