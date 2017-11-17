@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-DevTemp" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>DevTemp</name>
+	<engines>
+		<engine name="cordova" version=">=3.4.0"/>
+	</engines>
+	
+	<assets src="www/DevTemp.js" target="js/DevTemp.js"/>
+	
+	<js-module name="DevTemp" src="www/DevTemp.js">
+		<clobbers target="DevTemp" />
+	</js-module>
+
+	<platform name="android">
+		<config-file target="res/xml/config.xml" parent="/*">
+			<feature name="DevTemp">
+				<param name="android-package" value="cordova_plugin_DevTemp.DevTemp" />
+			</feature>
+		</config-file>
+		
+		<source-file src="src/android/DevTemp.java" target-dir="src/cordova-plugin-DevTemp/DevTemp" />
+	</platform>
+
+</plugin>
