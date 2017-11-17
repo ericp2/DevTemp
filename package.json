@@ -11,9 +11,9 @@
   "engines": {
     "cordova": ">=3.4.0"
   },
-  "license": ""
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ericp2/DevTemp"
-  },
+   },
+ "license": ""
 }
