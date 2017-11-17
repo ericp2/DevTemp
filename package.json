@@ -7,9 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Eric Poullain",
   "engines": {
     "cordova": ">=3.4.0"
   },
   "license": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericp2/DevTemp"
+  },
 }
